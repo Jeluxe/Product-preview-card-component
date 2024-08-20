@@ -14,7 +14,7 @@
   --ff-second: 'Fraunces';
 
   --fs-100: 0.875rem;
-  --fs-500: 2rem;
+  --fs-500: 2.1rem;
 
   --fw-regular: 500;
   --fw-bold: 700;
@@ -128,4 +128,10 @@ main {
 
 .button:is(:hover, :focus) {
   background: var(--clr-dark-primary);
+}
+
+@media (min-width: 600px) {
+  .button {
+    padding: .75rem;
+  }
 }
